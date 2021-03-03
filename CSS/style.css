@@ -1,0 +1,129 @@
+#emoji{
+    font-size: 40px;
+}
+
+header{
+    margin-top: 40px;
+}
+
+.navbar-brand{
+    margin-left: 8px;
+}
+
+.imgMe{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 375px;
+    border-radius: 30px;
+}
+/*---------------------------- About me----------------------- */
+
+.metxt{
+    font-size: 30px;
+}
+
+.aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+}
+/* ----------------------Projects------------------------- */
+.projectsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTxtPF{
+    padding: 20px;
+    background-color: #788BEA;
+    color: white;
+    border-radius: 5px;
+}
+
+.projectTxtRC{
+    padding: 20px;
+    background-color: #B7EC3F;
+    color: black;
+    border-radius: 5px;
+}
+
+.projectTxtJ{
+    padding: 20px;
+    background-color: #5DD3C7;
+    color: white;
+    border-radius: 5px;
+}
+
+.projectTxtCovapp{
+    padding: 20px;
+    background-color: #B7E2DD;
+    color: black;
+    border-radius: 5px;
+}
+
+.pfImg{
+    height: 375px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/* ----------------------Experience------------ */
+.companyContainer{
+    display: flex;
+}
+
+.imgCompany{
+    height: 250px;
+}
+.txtCompany{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ---------------------Education ---------------------- */
+
+.educationImg{
+    padding: 30px;
+    height: 200px;
+}
+
+.mediaImg{
+    height: 80px;
+}
+
+.eduContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.educationContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------------------- Social Media ------------------------ */
+.socialContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialText{
+    text-align: end;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
