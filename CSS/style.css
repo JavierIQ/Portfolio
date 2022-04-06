@@ -12,9 +12,9 @@ h2{
 }
 
 h3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
     background-color: #212529;
     color: white;
     border-radius: 5px;
@@ -71,8 +71,9 @@ h3{
 }
 
 .projectTxt{
-    padding: 20px;
+    padding: 10px;
     color: #212529;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pfImg{
@@ -81,26 +82,54 @@ h3{
     margin-bottom: 18px;
 }
 
+.brounieLogo{
+    margin-bottom: 20px;
+}
+
 /* ----------------------Experience------------ */
 .companyContainer{
     display: flex;
+    flex-direction: column;
 }
 
 .imgCompany{
     height: 250px;
 }
+
 .txtCompany{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.companyTxtTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.companyTxtContent{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.companyTxtTime{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #212529;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
 /* ---------------------Education ---------------------- */
+
+.educationCard{
+    max-width: 540px;
+}
 
 .educationImg{
     padding: 30px;
     height: 200px;
 }
+
 
 .mediaImg{
     height: 80px;
