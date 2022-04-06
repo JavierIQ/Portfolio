@@ -6,8 +6,36 @@ header{
     margin-top: 40px;
 }
 
+h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ----------------------Nav bar ------------------------------ */
+.navHeader{
+    text-align: center;
+    font-size: 30px;
+    color: var(--print_on_web_bg_color, #1a1a1a);
+    margin-top: 10px;
+}
+
+.myNavBar{
+    color: #5DD3C7;
+    background-color: #5DD3C7;
+}
+
 .navbar-brand{
     margin-left: 8px;
+    text-align: center;
 }
 
 .imgMe{
@@ -15,14 +43,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    width: 375px;
-    border-radius: 30px;
+    width: 200px;
 }
 /*---------------------------- About me----------------------- */
 
 .metxt{
     font-size: 30px;
+}
+
+.aboutMeTxt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .aboutMe{
@@ -40,32 +70,9 @@ header{
     align-items: center;
 }
 
-.projectTxtPF{
+.projectTxt{
     padding: 20px;
-    background-color: #788BEA;
-    color: white;
-    border-radius: 5px;
-}
-
-.projectTxtRC{
-    padding: 20px;
-    background-color: #B7EC3F;
-    color: black;
-    border-radius: 5px;
-}
-
-.projectTxtJ{
-    padding: 20px;
-    background-color: #5DD3C7;
-    color: white;
-    border-radius: 5px;
-}
-
-.projectTxtCovapp{
-    padding: 20px;
-    background-color: #B7E2DD;
-    color: black;
-    border-radius: 5px;
+    color: #212529;
 }
 
 .pfImg{
@@ -117,10 +124,15 @@ header{
 }
 
 .socialText{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: end;
 }
 
 .socialMedia{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
