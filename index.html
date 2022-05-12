@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>JaviIQ</title>
 </head>
 <body>
@@ -20,16 +20,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-text mx-auto">
                 <li class="nav-item ">
-                  <a class="nav-link text-white" aria-current="page" href="#">About me</a>
+                  <a class="nav-link text-white" aria-current="page" href="#aboutMeContainer">About me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="#">Projects</a>
+                  <a class="nav-link text-white" aria-current="page" href="#projectsContainers">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="#">Experience</a>
+                  <a class="nav-link text-white" aria-current="page" href="#experienceContainers">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="#">Education</a>
+                  <a class="nav-link text-white" aria-current="page" href="#educationContainers">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#socialContainers">Contact me</a>
                 </li>
               </ul>  
           </div>
@@ -41,7 +44,7 @@
         <header class="container">
             <div class="row">
               <div class="row">
-                <div class="col-lg-6 col-md-12 aboutMe">
+                <div id="aboutMeContainer" class="col-lg-6 col-md-12 aboutMe">
                     <p class="metxt"><b>Hi! I am Javier</b> &#128075;</p>
                     <p class="text-center aboutMeTxt">Systems Engineering student at Tecnológico de Monterrey, with almost 3 year experience in technology, always open to feedback to improve skills, good at teamwork and an active person. </p>
                     <p class="text-center aboutMeTxt">I love to watch movies with good photography and video games with good stories.</p>
@@ -53,7 +56,7 @@
     
         </header>
         <hr>
-        <h2>Projects</h2>
+        <h2 id="projectsContainers">Projects</h2>
         <div class="container projects">         
             <h3>Pets & Friends</h3>
             <p class="text-center text-break projectTxt">It's an Airbnb for dogs, if you go on a trip and have nowhere to leave your pet, you can find a place to leave it or you can host someone else's pet</p>
@@ -66,7 +69,7 @@
                 </div>            
             </div>
             <h3>Reciclatelo</h3>
-            <p class="text-center text-break projectTxt">It's an Airbnb for dogs, if you go on a trip and have nowhere to leave your pet, you can find a place to leave it or you can host someone else's pet</p>
+            <p class="text-center text-break projectTxt">An application where you can win prizes while you recycle in your daily life</p>
             <div class="col projectsContainer">
                  <div class="container">
                       <img class="pfImg img-fluid"src="IMG/reciclatelo/reci1.png" alt="">
@@ -76,7 +79,7 @@
                 </div>            
             </div>
             <h3>Journey</h3>
-            <p class="text-center text-break projectTxt">It's an Airbnb for dogs, if you go on a trip and have nowhere to leave your pet, you can find a place to leave it or you can host someone else's pet</p>
+            <p class="text-center text-break projectTxt">It's a Journey app where you can share your day with your close friends or write together a day</p>
             <div class="col projectsContainer mx-auto">
                  <div class="container mx-auto">
                       <img class="pfImg img-fluid"src="IMG/journey/journey1.png" alt="">
@@ -85,7 +88,7 @@
                 </div>            
             </div>
             <h3>Covapp</h3>
-            <p class="text-center text-break projectTxt">It's an Airbnb for dogs, if you go on a trip and have nowhere to leave your pet, you can find a place to leave it or you can host someone else's pet</p>
+            <p class="text-center text-break projectTxt">It's an app where you can publish if you need some kind of help, because you don't want to get outside of your house</p>
             <div class="col projectsContainer">
                  <div class="container">
                       <img class="pfImg img-fluid"src="IMG/covapp/covapp1.png" alt="">
@@ -95,18 +98,21 @@
                 </div>            
             </div>
             <h3>A tu Mesa Repartidores</h3>
+            <p class="text-center text-break projectTxt">It's a delivery food app in San Juan del Rio but for delivery drivers, to get notifications and know where to drive</p>
             <div class="col projectsContainer">
                  <div class="container">
 
                  </div>            
             </div>
             <h3>Julio González</h3>
+            <p class="text-center text-break projectTxt">It's an app to prevent smuggling on a company of trailers, where you need to answer 17 cuestion and you can save evidence</p>
             <div class="col projectsContainer">
                  <div class="container">
 
                  </div>            
             </div>
             <h3>Mis Onzas</h3>
+            <p class="text-center text-break projectTxt">Application for measuring bottles, this helps to restaurants or a bar when they close can know how many liters they have</p>
             <div class="col projectsContainer">
                  <div class="container">
 
@@ -117,36 +123,36 @@
 
         <!-- Education and Experience Container -->
         <article class="container experienceContainer">
-            <h2>Experience</h2>
+            <h2 id="experienceContainers">Experience</h2>
             
             <div class="col companyContainer">
+              <p class="companyTxtTitle"><b>Santander</b></p>
                 <img src="IMG/Logos/Santander-logo.jpg" class="col-sm-12 col-md-8 col-lg-6 col-xl-4 img-fluid imgCompany" alt="...">
                 <div class="txtCompany">
-                    <p class="companyTxtTitle"><b>Santander</b></p>
                     <p class="companyTxtContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, odio enim cum autem minus debitis veniam a ipsam consequatur, culpa quaerat magnam molestias quibusdam nemo exercitationem iste. Repudiandae, omnis. Quas!</p>
-                    <p class="companyTxtTime">2020 - Current</p>
+                    <p class="companyTxtTime">2020 - Currently</p>
                 </div>
             </div>
             <div class="col companyContainer">
+                <p class="companyTxtTitle"><b>Brounie</b></p>
                 <img src="IMG/Logos/BrounieLogo.tif" class="col-sm-12 col-md-8 col-lg-6 col-xl-5 img-fluid brounieLogo imgCompany" alt="...">
                 <div class="txtCompany">
-                    <p class="companyTxtTitle"><b>Brounie</b></p>
                     <p class="companyTxtContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, odio enim cum autem minus debitis veniam a ipsam consequatur, culpa quaerat magnam molestias quibusdam nemo exercitationem iste. Repudiandae, omnis. Quas!</p>
                     <p class="companyTxtTime">2019 - 2020</p>
                 </div>
             </div>
             <div class="col companyContainer">
+                <p class="companyTxtTitle"><b>Cárita de Querétaro</b></p>
                 <img src="IMG/Logos/caritasLogo.png" class="col-sm-12 col-md-8 col-lg-6 col-xl-4 img-fluid imgCompany" alt="...">
                 <div class="txtCompany">
-                    <p class="companyTxtTitle"><b>Cárita de Querétaro</b></p>
                     <p class="companyTxtContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, odio enim cum autem minus debitis veniam a ipsam consequatur, culpa quaerat magnam molestias quibusdam nemo exercitationem iste. Repudiandae, omnis. Quas!</p>
                     <p class="companyTxtTime">2019</p>
                 </div>
             </div>
             <div class="col companyContainer">
+                <p class="companyTxtTitle"><b>Costco</b></p>
                 <img src="IMG/Logos/Costco-logo.jpg" class="col-sm-12 col-md-8 col-lg-6 col-xl-4 img-fluid imgCompany" alt="...">
                 <div class="txtCompany">
-                    <p class="companyTxtTitle"><b>Costco</b></p>
                     <p class="companyTxtContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, odio enim cum autem minus debitis veniam a ipsam consequatur, culpa quaerat magnam molestias quibusdam nemo exercitationem iste. Repudiandae, omnis. Quas!</p>
                     <p class="companyTxtTime">2017 - 2019</p>
                 </div>
@@ -154,7 +160,7 @@
 
             <hr>
 
-            <h2>Education</h2>
+            <h2 id="educationContainers">Education</h2>
             <div class="educationContainer">
                 <div class="container">
                     <div class="row">
@@ -167,8 +173,8 @@
                               <div class="col-md-8">
                                 <div class="card-body eduContent">
                                     <h5 class="card-title">Tecnológico de Monterrey</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Computer Systems Engineer</p>
+                                    <p class="card-text"><small class="text-muted">2017 - 2022</small></p>
                                 </div>
                               </div>
                             </div>
@@ -183,8 +189,8 @@
                               <div class="col-md-8">
                                 <div class="card-body eduContent">
                                     <h5 class="card-title">Bedu</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">This was a Scholarship to be a Front-End</p>
+                                    <p class="card-text"><small class="text-muted">2019 - 2020</small></p>
                                 </div>
                               </div>
                             </div>
@@ -198,9 +204,14 @@
                               </div>
                               <div class="col-md-8">
                                 <div class="card-body eduContent">
-                                    <h5 class="card-title">Codecademy</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Codecademy Pro</h5>
+                                    <p class="card-text">
+                                      <ul>
+                                        <li>Create REST APIs with Spring and Java</li>
+                                        <li>Front-End Engineer - Currently</li>
+                                      </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Currently</small></p>
                                 </div>
                               </div>
                             </div>
@@ -215,7 +226,7 @@
         <hr>
         <!-- My Info Section  -->
         <h2>Contact me</h2>
-        <section class="container socialContainer">
+        <section id="socialContainers" class="container socialContainer">
             <div class="row">
                 <div class="col-sm-12  col-md-6">
                     <div class="socialMedia">
